@@ -1,0 +1,41 @@
+{
+  "name": "react-boiler-plate",
+  "version": "1.0.0",
+  "description": "A boiler plate react + typescript project without use create-react-app",
+  "main": "index.js",
+  "author": "Nayara Souza",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development --hot",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@babel/runtime": "^7.18.3",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.16.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "terser-webpack-plugin": "^5.3.1",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
